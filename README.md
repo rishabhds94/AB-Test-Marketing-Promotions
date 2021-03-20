@@ -20,3 +20,20 @@ The t-value measures the degree of difference relative to the variation in our d
 ### P-Value
 P-value measures the probability that the results would occur by random chance. Therefore the smaller the p-value is, the more statistically significant difference there will be between the two groups
 
+## Comparing Promotion 1 vs Promotion 2 in an A/B Test
+t-value = 6.42752867090748
+p-value = 4.2903687179871785e-10
+## Analysis of P and t-values
+Our P-Value is close to 0 which suggests that there is good evidence to REJECT the Null Hypothesis. Meaning the there is a statistical difference between the two groups. Our threshold rejectings the Null is usually less than 0.05.
+
+Our t-test shows that the marketing performances for these two groups are significantly different and that promotion group 1 outperforms promotion group 2
+
+## Comparing Promotion 1 vs Promotion 3 in an A/B Test
+t-value = 1.5560224307758634
+p-value = 0.12059147742229478
+## Analysis of P and t-values
+We note that the average sales from promotion group 1 (58.1) is higher than those from promotion group 2 (55.36).
+
+But, running a t-test between these two groups, gives us a t-value of 1.556 and a p-value of 0.121.
+
+The computed p-value is a lot higher than 0.05, past the threshold for statistical significance.
